@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Anjoman Bold';
+    src: url("../font/anjoman-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Anjoman Light';
+    src: url("../font/anjoman-light.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Anjoman Regular';
+    src: url("../font/anjoman-regular.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anjoman Regular';
+}
+
+
+a {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+.img-resize {
+    width: 3rem;
+    height: 3.5rem;
+}
+
+main > section,
+footer {
+    height: 100vh;
+}
+
+.fw-bold {
+    font-family: 'Anjoman Bold' !important;
+}
+
+.fw-light {
+    font-family: 'Anjoman Light' !important;
+}
+
+.shadow-light {
+    box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.175) !important;
+}
+
+.shadow-dark {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
